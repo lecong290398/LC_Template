@@ -1,0 +1,618 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "XamarinSQLlite/1.0.0": {
+        "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "5.0.0",
+          "NETStandard.Library": "2.0.3",
+          "Prism.DryIoc.Forms": "7.2.0.1422",
+          "RestSharp": "106.11.7",
+          "Syncfusion.Xamarin.Buttons": "18.3.0.52",
+          "Syncfusion.Xamarin.Core": "18.3.0.52",
+          "Syncfusion.Xamarin.SfComboBox": "18.3.0.52",
+          "Syncfusion.Xamarin.SfRating": "18.3.0.52",
+          "System.Configuration.ConfigurationManager": "5.0.0",
+          "Xamarin.Essentials.Interfaces": "1.5.3.2",
+          "Xamarin.Forms": "4.7.0.1239"
+        },
+        "runtime": {
+          "XamarinSQLlite.dll": {}
+        }
+      },
+      "DryIoc.dll/4.0.7": {
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DryIoc.dll": {
+            "assemblyVersion": "4.0.7.0",
+            "fileVersion": "4.0.7.0"
+          }
+        }
+      },
+      "Microsoft.Data.Sqlite.Core/5.0.0": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.52303"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Prism.Core/7.2.0.1422": {
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {
+            "assemblyVersion": "7.2.0.1422",
+            "fileVersion": "7.2.0.1422"
+          }
+        }
+      },
+      "Prism.DryIoc.Forms/7.2.0.1422": {
+        "dependencies": {
+          "DryIoc.dll": "4.0.7",
+          "Prism.Forms": "7.2.0.1422"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.DryIoc.Forms.dll": {
+            "assemblyVersion": "7.2.0.1422",
+            "fileVersion": "7.2.0.1422"
+          }
+        }
+      },
+      "Prism.Forms/7.2.0.1422": {
+        "dependencies": {
+          "Prism.Core": "7.2.0.1422",
+          "Xamarin.Forms": "4.7.0.1239"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {
+            "assemblyVersion": "7.2.0.1422",
+            "fileVersion": "7.2.0.1422"
+          }
+        }
+      },
+      "RestSharp/106.11.7": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.11.7.0",
+            "fileVersion": "106.11.7.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/2.0.4": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
+          }
+        }
+      },
+      "Syncfusion.Licensing/18.3.0.52": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "18.3.0.52",
+            "fileVersion": "18.3.0.52"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Buttons/18.3.0.52": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.3.0.52",
+          "Xamarin.Forms": "4.7.0.1239"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Buttons.XForms.dll": {
+            "assemblyVersion": "18.3451.0.52",
+            "fileVersion": "18.3451.0.52"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Core/18.3.0.52": {
+        "dependencies": {
+          "Syncfusion.Licensing": "18.3.0.52",
+          "Xamarin.Forms": "4.7.0.1239"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {
+            "assemblyVersion": "18.3451.0.52",
+            "fileVersion": "18.3451.0.52"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfComboBox/18.3.0.52": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.3.0.52",
+          "Xamarin.Forms": "4.7.0.1239"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfComboBox.XForms.dll": {
+            "assemblyVersion": "18.3451.0.52",
+            "fileVersion": "18.3451.0.52"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfRating/18.3.0.52": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.3.0.52",
+          "Xamarin.Forms": "4.7.0.1239"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfRating.XForms.dll": {
+            "assemblyVersion": "18.3451.0.52",
+            "fileVersion": "18.3451.0.52"
+          }
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.28619.1"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/5.0.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "5.0.0",
+          "System.Security.Permissions": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.IO/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Memory/4.5.4": {
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "assemblyVersion": "4.0.1.1",
+            "fileVersion": "4.6.28619.1"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
+            "assemblyVersion": "4.1.4.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Reflection/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.4.1",
+            "fileVersion": "4.6.28619.1"
+          }
+        }
+      },
+      "System.Security.AccessControl/5.0.0": {
+        "dependencies": {
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/5.0.0": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Security.Permissions/5.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Text.Encoding/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "Xamarin.Essentials/1.5.3.2": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Essentials.Interfaces/1.5.3.2": {
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.3.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Essential.Interfaces.dll": {
+            "assemblyVersion": "1.5.3.2",
+            "fileVersion": "1.5.3.2"
+          }
+        }
+      },
+      "Xamarin.Forms/4.7.0.1239": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.7.0.485"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.7.0.485"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.7.0.485"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "XamarinSQLlite/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DryIoc.dll/4.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CHSWiSNf0tTpnHFt+DPB8mzgQMM9PbaFk7DP4g70+kTXsAS7fQlUI/yW4S+b6COOYsVQ+FPhxAw9NMU/2PGE7Q==",
+      "path": "dryioc.dll/4.0.7",
+      "hashPath": "dryioc.dll.4.0.7.nupkg.sha512"
+    },
+    "Microsoft.Data.Sqlite.Core/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O1PBB9Y9bU9Fb3FkewqeXzVJ3hI2DW9DtRGj7lGkT1FnP1B3kqjn3xpG2AaVzkv2MkzzKHNJAh+LQq3XaFcAMw==",
+      "path": "microsoft.data.sqlite.core/5.0.0",
+      "hashPath": "microsoft.data.sqlite.core.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Prism.Core/7.2.0.1422": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U6tZ4Iq+ELyK5PedRC6E20caZXXTmTYiw5evpv0M3WcfKgih9H5G5LDBlDl+65eC5Vb4lnOaUCAtckdEl2MRxA==",
+      "path": "prism.core/7.2.0.1422",
+      "hashPath": "prism.core.7.2.0.1422.nupkg.sha512"
+    },
+    "Prism.DryIoc.Forms/7.2.0.1422": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Mc35ZkZcLVgZg3sOwQPwlu2paylHO6UEXhWU9gtdwDekKGTj9nXwC4yAi9p51jUMoHZwPr34OXfnnEOl5VO7SA==",
+      "path": "prism.dryioc.forms/7.2.0.1422",
+      "hashPath": "prism.dryioc.forms.7.2.0.1422.nupkg.sha512"
+    },
+    "Prism.Forms/7.2.0.1422": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wrSjIoSp2o8W0JdHx1f5K7pM48lSA2yraQ+QRjl5PLRPs5FhzMwhOA2G1YoD0mhE1WzwzJoBBMnDfDaoFudmyQ==",
+      "path": "prism.forms/7.2.0.1422",
+      "hashPath": "prism.forms.7.2.0.1422.nupkg.sha512"
+    },
+    "RestSharp/106.11.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NzndH096CTulvq+ihr7u1mBJ29oukdi9A8bypQJk+kaHxbRzTTrtgsEEQAb04ptTUZmQa7cgo7uF5z7NuEPX1Q==",
+      "path": "restsharp/106.11.7",
+      "hashPath": "restsharp.106.11.7.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4XlDZpDAsboMD6qZQcz9AaKblKDUTVHF+8f3lvbP7QjoqSRr2Xc0Lm34IK2pjRIYnyFLhI3yOJ5YWfOiCid2yg==",
+      "path": "sqlitepclraw.core/2.0.4",
+      "hashPath": "sqlitepclraw.core.2.0.4.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/18.3.0.52": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KDwx1/rojyFiQUpmj7P4w7zZlUlmUJSF+Ji6iyaIglCayxjLziT03Ep2MZ9FCBXyeIDRDOR+V2GhfvjzDjpzdg==",
+      "path": "syncfusion.licensing/18.3.0.52",
+      "hashPath": "syncfusion.licensing.18.3.0.52.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Buttons/18.3.0.52": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8RGx5Ufd3DkRncGZSdbHcr2srLP1D/udvsrkw+vYteR2jtSzG1Rw7P4AaptqD4DfqWxxC5QMd+/wlo2Z9+g6Tw==",
+      "path": "syncfusion.xamarin.buttons/18.3.0.52",
+      "hashPath": "syncfusion.xamarin.buttons.18.3.0.52.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Core/18.3.0.52": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h6qTgvbwECUw2a63UUv2UOBGcewkoAyoHYC+CYvxMlcwmAbEgvPHNHxWCoVj6QKdRwj7cDvveEQB+v5ksTWwpA==",
+      "path": "syncfusion.xamarin.core/18.3.0.52",
+      "hashPath": "syncfusion.xamarin.core.18.3.0.52.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfComboBox/18.3.0.52": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GEuuOCX83p7qVB4TT1UPXQjHcjUZS+oRx22ttX1SmBruDVTCpjHH6lxwrw7zaqtvHriNhRUEV0kvdcx5QQLi5A==",
+      "path": "syncfusion.xamarin.sfcombobox/18.3.0.52",
+      "hashPath": "syncfusion.xamarin.sfcombobox.18.3.0.52.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfRating/18.3.0.52": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-70NSzyvvwDqYqNV4tKm5ZYOoCwgJiStgK/AlRJ9f2XlqG9ERzst72SZYhXAjnwmqhXMIjwOMB/xHxGViSNmxyQ==",
+      "path": "syncfusion.xamarin.sfrating/18.3.0.52",
+      "hashPath": "syncfusion.xamarin.sfrating.18.3.0.52.nupkg.sha512"
+    },
+    "System.Buffers/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "path": "system.buffers/4.5.1",
+      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aM7cbfEfVNlEEOj3DsZP+2g9NRwbkyiAv2isQEzw7pnkDg9ekCU2m1cdJLM02Uq691OaCS91tooaxcEn8d0q5w==",
+      "path": "system.configuration.configurationmanager/5.0.0",
+      "hashPath": "system.configuration.configurationmanager.5.0.0.nupkg.sha512"
+    },
+    "System.IO/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
+      "path": "system.io/4.3.0",
+      "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "System.Reflection/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
+      "path": "system.reflection/4.3.0",
+      "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
+      "path": "system.reflection.emit.ilgeneration/4.3.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oadVHGSMsTmZsAF864QYN1t1QzZjIcuKU3l2S9cZOwDdDueNTrqq1yRj7koFfIGEnKpt6NjpL3rOzRhs4ryOgA==",
+      "path": "system.reflection.emit.lightweight/4.3.0",
+      "hashPath": "system.reflection.emit.lightweight.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
+      "path": "system.reflection.primitives/4.3.0",
+      "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3TIsJhD1EiiT0w2CcDMN/iSSwnNnsrnbzeVHSKkaEgV85txMprmuO+Yq2AdSbeVGcg28pdNDTPK87tJhX7VFHw==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.3",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512"
+    },
+    "System.Security.AccessControl/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dagJ1mHZO3Ani8GH0PHpPEe/oYO+rVdbQjvjJkBRNQkX4t0r1iaeGn8+/ybkSLEan3/slM0t59SVdHzuHf2jmw==",
+      "path": "system.security.accesscontrol/5.0.0",
+      "hashPath": "system.security.accesscontrol.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HGxMSAFAPLNoxBvSfW08vHde0F9uh7BjASwu6JF9JnXuEPhCY3YUqURn0+bQV/4UWeaqymmrHWV+Aw9riQCtCA==",
+      "path": "system.security.cryptography.protecteddata/5.0.0",
+      "hashPath": "system.security.cryptography.protecteddata.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uE8juAhEkp7KDBCdjDIE3H9R1HJuEHqeqX8nLX9gmYKWwsqk3T5qZlPx8qle5DPKimC/Fy3AFTdV7HamgCh9qQ==",
+      "path": "system.security.permissions/5.0.0",
+      "hashPath": "system.security.permissions.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
+      "path": "system.security.principal.windows/5.0.0",
+      "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "path": "system.text.encoding/4.3.0",
+      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "path": "system.threading.tasks/4.3.0",
+      "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    },
+    "Xamarin.Essentials/1.5.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BSLgDJUOPFRwTpQaftM+s4qb/MsTjrqXulEYDOcK6KF3i0Orf75zo3RwRfqnQ8WfpoEFxW/v0jgcPWCvOMgHxg==",
+      "path": "xamarin.essentials/1.5.3.2",
+      "hashPath": "xamarin.essentials.1.5.3.2.nupkg.sha512"
+    },
+    "Xamarin.Essentials.Interfaces/1.5.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TfMF7sbc+2FT3PpU0CosSVSvOh6nzB1N4D3iTrZRg9/9DZejXWUCgmR+3iU3I7ydwRhiohKTPa4Gkw5WZEfQyQ==",
+      "path": "xamarin.essentials.interfaces/1.5.3.2",
+      "hashPath": "xamarin.essentials.interfaces.1.5.3.2.nupkg.sha512"
+    },
+    "Xamarin.Forms/4.7.0.1239": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vGtrCFHo/eEIDPk0yHsktW1xl4rt+KbTab2ciPbsU7tlI5x88aspH9IJlfybh5ejCFhRYYpNr8+uB9vX08bsuA==",
+      "path": "xamarin.forms/4.7.0.1239",
+      "hashPath": "xamarin.forms.4.7.0.1239.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,255 @@
+
+
+Date:2020-12-08 14:13:37,794
+Thread:[1]
+Level:ERROR
+Logger:Syncfusion.Xamarin.UI.WizardImplementation                         [(null)]
+Message:System.ArgumentException: Value does not fall within the expected range.
+   at Microsoft.VisualStudio.Shell.Interop.IVsSolution5.GetGuidOfProjectFile(String pszProjectFile)
+   at NuGet.VisualStudio.ProjectNames.GetProjectGuid(String fullname, IVsSolution5 vsSolution5)
+   at NuGet.VisualStudio.ProjectNames.<FromDTEProjectAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.PackageManagement.VisualStudio.VsProjectAdapterProvider.<CreateAdapterForFullyLoadedProjectAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.PackageManagement.VisualStudio.VSSolutionManager.<GetOrCreateProjectAsync>d__108.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.VisualStudio.VsPackageInstallerServices.<GetInstalledPackageReferencesAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.VisualStudio.VsPackageInstallerServices.<>c__DisplayClass13_0.<<IsPackageInstalled>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTask`1.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTaskFactory.Run[T](Func`1 asyncMethod, JoinableTaskCreationOptions creationOptions)
+   at NuGet.VisualStudio.VsPackageInstallerServices.IsPackageInstalled(Project project, String packageId, NuGetVersion nugetVersion)
+   at NuGet.VisualStudio.VsPackageInstallerServices.IsPackageInstalled(Project project, String packageId)
+   at Syncfusion.Xamarin.UI.WizardImplementation.NugetPackageInstallation(Project project, String package, String version)
+
+
+Date:2020-12-08 14:13:37,841
+Thread:[1]
+Level:ERROR
+Logger:Syncfusion.Xamarin.UI.WizardImplementation                         [(null)]
+Message:System.ArgumentException: Value does not fall within the expected range.
+   at Microsoft.VisualStudio.Shell.Interop.IVsSolution5.GetGuidOfProjectFile(String pszProjectFile)
+   at NuGet.VisualStudio.ProjectNames.GetProjectGuid(String fullname, IVsSolution5 vsSolution5)
+   at NuGet.VisualStudio.ProjectNames.<FromDTEProjectAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.PackageManagement.VisualStudio.VsProjectAdapterProvider.<CreateAdapterForFullyLoadedProjectAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.PackageManagement.VisualStudio.VSSolutionManager.<GetOrCreateProjectAsync>d__108.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.VisualStudio.VsPackageInstallerServices.<GetInstalledPackageReferencesAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.VisualStudio.VsPackageInstallerServices.<>c__DisplayClass13_0.<<IsPackageInstalled>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTask`1.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTaskFactory.Run[T](Func`1 asyncMethod, JoinableTaskCreationOptions creationOptions)
+   at NuGet.VisualStudio.VsPackageInstallerServices.IsPackageInstalled(Project project, String packageId, NuGetVersion nugetVersion)
+   at NuGet.VisualStudio.VsPackageInstallerServices.IsPackageInstalled(Project project, String packageId)
+   at Syncfusion.Xamarin.UI.WizardImplementation.NugetPackageInstallation(Project project, String package, String version)
+
+
+Date:2020-12-08 14:13:37,847
+Thread:[1]
+Level:ERROR
+Logger:Syncfusion.Xamarin.UI.WizardImplementation                         [(null)]
+Message:System.ArgumentException: Value does not fall within the expected range.
+   at Microsoft.VisualStudio.Shell.Interop.IVsSolution5.GetGuidOfProjectFile(String pszProjectFile)
+   at NuGet.VisualStudio.ProjectNames.GetProjectGuid(String fullname, IVsSolution5 vsSolution5)
+   at NuGet.VisualStudio.ProjectNames.<FromDTEProjectAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.PackageManagement.VisualStudio.VsProjectAdapterProvider.<CreateAdapterForFullyLoadedProjectAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.PackageManagement.VisualStudio.VSSolutionManager.<GetOrCreateProjectAsync>d__108.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.VisualStudio.VsPackageInstallerServices.<GetInstalledPackageReferencesAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.VisualStudio.VsPackageInstallerServices.<>c__DisplayClass13_0.<<IsPackageInstalled>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTask`1.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTaskFactory.Run[T](Func`1 asyncMethod, JoinableTaskCreationOptions creationOptions)
+   at NuGet.VisualStudio.VsPackageInstallerServices.IsPackageInstalled(Project project, String packageId, NuGetVersion nugetVersion)
+   at NuGet.VisualStudio.VsPackageInstallerServices.IsPackageInstalled(Project project, String packageId)
+   at Syncfusion.Xamarin.UI.WizardImplementation.NugetPackageInstallation(Project project, String package, String version)
+
+
+Date:2020-12-08 14:13:37,854
+Thread:[1]
+Level:ERROR
+Logger:Syncfusion.Xamarin.UI.WizardImplementation                         [(null)]
+Message:System.ArgumentException: Value does not fall within the expected range.
+   at Microsoft.VisualStudio.Shell.Interop.IVsSolution5.GetGuidOfProjectFile(String pszProjectFile)
+   at NuGet.VisualStudio.ProjectNames.GetProjectGuid(String fullname, IVsSolution5 vsSolution5)
+   at NuGet.VisualStudio.ProjectNames.<FromDTEProjectAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.PackageManagement.VisualStudio.VsProjectAdapterProvider.<CreateAdapterForFullyLoadedProjectAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.PackageManagement.VisualStudio.VSSolutionManager.<GetOrCreateProjectAsync>d__108.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.VisualStudio.VsPackageInstallerServices.<GetInstalledPackageReferencesAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.VisualStudio.VsPackageInstallerServices.<>c__DisplayClass13_0.<<IsPackageInstalled>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTask`1.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTaskFactory.Run[T](Func`1 asyncMethod, JoinableTaskCreationOptions creationOptions)
+   at NuGet.VisualStudio.VsPackageInstallerServices.IsPackageInstalled(Project project, String packageId, NuGetVersion nugetVersion)
+   at NuGet.VisualStudio.VsPackageInstallerServices.IsPackageInstalled(Project project, String packageId)
+   at Syncfusion.Xamarin.UI.WizardImplementation.NugetPackageInstallation(Project project, String package, String version)
+
+
+Date:2020-12-08 14:13:37,867
+Thread:[1]
+Level:ERROR
+Logger:Syncfusion.Xamarin.UI.WizardImplementation                         [(null)]
+Message:System.ArgumentException: Value does not fall within the expected range.
+   at Microsoft.VisualStudio.Shell.Interop.IVsSolution5.GetGuidOfProjectFile(String pszProjectFile)
+   at NuGet.VisualStudio.ProjectNames.GetProjectGuid(String fullname, IVsSolution5 vsSolution5)
+   at NuGet.VisualStudio.ProjectNames.<FromDTEProjectAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.PackageManagement.VisualStudio.VsProjectAdapterProvider.<CreateAdapterForFullyLoadedProjectAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.PackageManagement.VisualStudio.VSSolutionManager.<GetOrCreateProjectAsync>d__108.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.VisualStudio.VsPackageInstallerServices.<GetInstalledPackageReferencesAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.VisualStudio.VsPackageInstallerServices.<>c__DisplayClass13_0.<<IsPackageInstalled>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTask`1.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTaskFactory.Run[T](Func`1 asyncMethod, JoinableTaskCreationOptions creationOptions)
+   at NuGet.VisualStudio.VsPackageInstallerServices.IsPackageInstalled(Project project, String packageId, NuGetVersion nugetVersion)
+   at NuGet.VisualStudio.VsPackageInstallerServices.IsPackageInstalled(Project project, String packageId)
+   at Syncfusion.Xamarin.UI.WizardImplementation.NugetPackageInstallation(Project project, String package, String version)
+
+
+Date:2020-12-08 14:13:37,874
+Thread:[1]
+Level:ERROR
+Logger:Syncfusion.Xamarin.UI.WizardImplementation                         [(null)]
+Message:System.ArgumentException: Value does not fall within the expected range.
+   at Microsoft.VisualStudio.Shell.Interop.IVsSolution5.GetGuidOfProjectFile(String pszProjectFile)
+   at NuGet.VisualStudio.ProjectNames.GetProjectGuid(String fullname, IVsSolution5 vsSolution5)
+   at NuGet.VisualStudio.ProjectNames.<FromDTEProjectAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.PackageManagement.VisualStudio.VsProjectAdapterProvider.<CreateAdapterForFullyLoadedProjectAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.PackageManagement.VisualStudio.VSSolutionManager.<GetOrCreateProjectAsync>d__108.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.VisualStudio.VsPackageInstallerServices.<GetInstalledPackageReferencesAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NuGet.VisualStudio.VsPackageInstallerServices.<>c__DisplayClass13_0.<<IsPackageInstalled>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTask`1.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTaskFactory.Run[T](Func`1 asyncMethod, JoinableTaskCreationOptions creationOptions)
+   at NuGet.VisualStudio.VsPackageInstallerServices.IsPackageInstalled(Project project, String packageId, NuGetVersion nugetVersion)
+   at NuGet.VisualStudio.VsPackageInstallerServices.IsPackageInstalled(Project project, String packageId)
+   at Syncfusion.Xamarin.UI.WizardImplementation.NugetPackageInstallation(Project project, String package, String version)
+
+
+Date:2020-12-08 14:13:37,928
+Thread:[1]
+Level:ERROR
+Logger:Syncfusion.Xamarin.UI.WizardImplementation                         [(null)]
+Message:System.ArgumentException: Empty path name is not legal.
+   at System.IO.File.ReadAllText(String path)
+   at Syncfusion.Xamarin.UI.WizardImplementation.AddControlRendererLine(List`1 templateList, List`1 resourceList)
+
+
+Date:2020-12-08 14:13:37,956
+Thread:[1]
+Level:ERROR
+Logger:Syncfusion.Xamarin.UI.WizardImplementation                         [(null)]
+Message:System.ArgumentException: Empty path name is not legal.
+   at System.IO.File.ReadAllText(String path)
+   at Syncfusion.Xamarin.UI.WizardImplementation.AddFlies(String[] fileName, String projectType)
+
+
+Date:2020-12-08 14:13:37,964
+Thread:[1]
+Level:ERROR
+Logger:Syncfusion.Xamarin.UI.WizardImplementation                         [(null)]
+Message:System.ArgumentException: Empty path name is not legal.
+   at System.IO.File.ReadAllText(String path)
+   at Syncfusion.Xamarin.UI.WizardImplementation.AddFlies(String[] fileName, String projectType)
+
+
+Date:2020-12-08 14:13:37,973
+Thread:[1]
+Level:ERROR
+Logger:Syncfusion.Xamarin.UI.WizardImplementation                         [(null)]
+Message:System.ArgumentException: Empty path name is not legal.
+   at System.IO.File.ReadAllText(String path)
+   at Syncfusion.Xamarin.UI.WizardImplementation.AddProjectItemsForUWP(String ProjectFile, String[] fileName)
+
+
+Date:2020-12-08 14:13:37,978
+Thread:[1]
+Level:ERROR
+Logger:Syncfusion.Xamarin.UI.WizardImplementation                         [(null)]
+Message:System.ArgumentException: Empty path name is not legal.
+   at System.IO.File.ReadAllText(String path)
+   at Syncfusion.Xamarin.UI.WizardImplementation.AddFlies(String[] fileName, String projectType)

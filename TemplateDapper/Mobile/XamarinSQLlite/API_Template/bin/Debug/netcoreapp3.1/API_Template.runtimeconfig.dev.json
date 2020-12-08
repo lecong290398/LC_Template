@@ -1,0 +1,10 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\lecon\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\lecon\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+      "C:\\Microsoft\\Xamarin\\NuGet"
+    ]
+  }
+}

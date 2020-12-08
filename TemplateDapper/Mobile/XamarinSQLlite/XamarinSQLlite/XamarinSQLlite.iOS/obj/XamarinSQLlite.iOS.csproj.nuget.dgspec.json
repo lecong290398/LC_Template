@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.iOS\\XamarinSQLlite.iOS.csproj": {}
+  },
+  "projects": {
+    "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.iOS\\XamarinSQLlite.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.iOS\\XamarinSQLlite.iOS.csproj",
+        "projectName": "XamarinSQLlite.iOS",
+        "projectPath": "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.iOS\\XamarinSQLlite.iOS.csproj",
+        "packagesPath": "C:\\Users\\lecon\\.nuget\\packages\\",
+        "outputPath": "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lecon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.csproj": {
+                "projectPath": "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Prism.DryIoc.Forms": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            },
+            "Syncfusion.Xamarin.Buttons": {
+              "target": "Package",
+              "version": "[18.3.0.52, )"
+            },
+            "Syncfusion.Xamarin.Core": {
+              "target": "Package",
+              "version": "[18.3.0.52, )"
+            },
+            "Syncfusion.Xamarin.SfComboBox": {
+              "target": "Package",
+              "version": "[18.3.0.52, )"
+            },
+            "Syncfusion.Xamarin.SfRating": {
+              "target": "Package",
+              "version": "[18.3.0.52, )"
+            },
+            "Xamarin.Essentials.Interfaces": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.7.0.1239, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.csproj",
+        "projectName": "XamarinSQLlite",
+        "projectPath": "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.csproj",
+        "packagesPath": "C:\\Users\\lecon\\.nuget\\packages\\",
+        "outputPath": "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lecon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Prism.DryIoc.Forms": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            },
+            "Syncfusion.Xamarin.Buttons": {
+              "target": "Package",
+              "version": "[18.3.0.52, )"
+            },
+            "Syncfusion.Xamarin.Core": {
+              "target": "Package",
+              "version": "[18.3.0.52, )"
+            },
+            "Syncfusion.Xamarin.SfComboBox": {
+              "target": "Package",
+              "version": "[18.3.0.52, )"
+            },
+            "Syncfusion.Xamarin.SfRating": {
+              "target": "Package",
+              "version": "[18.3.0.52, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Xamarin.Essentials.Interfaces": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.7.0.1239, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

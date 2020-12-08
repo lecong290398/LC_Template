@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext "Data Source=E:\GitLabAt\at-pos\Pos.Xam\Pos.Xam\File\data.db;" Microsoft.EntityFrameworkCore.Sqlite -force
