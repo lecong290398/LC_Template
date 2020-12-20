@@ -16,3 +16,4 @@ F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\DbCommand\obj\Deb
 F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\DbCommand\obj\Debug\DbCommand.csproj.CopyComplete
 F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\DbCommand\obj\Debug\DbCommand.dll
 F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\DbCommand\obj\Debug\DbCommand.pdb
+F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\DbCommand\obj\Debug\DbCommand.csprojAssemblyReference.cache

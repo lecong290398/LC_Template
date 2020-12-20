@@ -1,6 +1,8 @@
-﻿using System.Threading.Tasks;
+﻿using Prism.Commands;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
+using XamarinSQLlite.Core.Logic;
 using XamarinSQLlite.Model;
 
 namespace XamarinSQLlite.ViewModels.Forms
@@ -9,17 +11,14 @@ namespace XamarinSQLlite.ViewModels.Forms
     /// ViewModel for login page.
     /// </summary>
     [Preserve(AllMembers = true)]
-    internal class LoginPageViewModel : BaseViewModel 
+    internal class LoginPageViewModel : BaseViewModel
     {
         #region Constructor
-
-        public LoginPageViewModel(InitParam initParam) : base(initParam)
+        private static Lc_LoginLogic _LoginLogic;
+        public LoginPageViewModel(InitParam initParam, Lc_LoginLogic lc_Login) : base(initParam)
         {
             TitleBindProp = "Giới Thiệu / Liên Hệ";
-            this.LoginCommand = new Command(this.LoginClicked);
-            this.SignUpCommand = new Command(this.SignUpClicked);
-            this.ForgotPasswordCommand = new Command(this.ForgotPasswordClicked);
-            this.SocialMediaLoginCommand = new Command(this.SocialLoggedIn);
+            _LoginLogic = lc_Login;
         }
 
         #endregion
@@ -73,56 +72,41 @@ namespace XamarinSQLlite.ViewModels.Forms
 
         #endregion
 
-
-
-        #endregion
-
-        #region property
-
-        /// <summary>
-        /// Gets or sets the property that is bound with an entry that gets the password from user in the login page.
-        /// </summary>
-        public string Password
-        {
-            get
-            {
-                return this.password;
-            }
-
-            set
-            {
-                if (this.password == value)
-                {
-                    return;
-                }
-
-                this.password = value;
-            }
-        }
-
         #endregion
 
         #region Command
 
-        /// <summary>
-        /// Gets or sets the command that is executed when the Log In button is clicked.
-        /// </summary>
-        public Command LoginCommand { get; set; }
 
-        /// <summary>
-        /// Gets or sets the command that is executed when the Sign Up button is clicked.
-        /// </summary>
-        public Command SignUpCommand { get; set; }
 
-        /// <summary>
-        /// Gets or sets the command that is executed when the Forgot Password button is clicked.
-        /// </summary>
-        public Command ForgotPasswordCommand { get; set; }
+        #region LoginCommand
 
-        /// <summary>
-        /// Gets or sets the command that is executed when the social media login button is clicked.
-        /// </summary>
-        public Command SocialMediaLoginCommand { get; set; }
+        public DelegateCommand<object> LoginCommand { get; private set; }
+        private async void OnLogin(object obj)
+        {
+            if (IsBusyBindProp)
+            {
+                return;
+            }
+
+            IsBusyBindProp = true;
+
+            var result = await _LoginLogic.LoginAsyns(EmailBindProp, PasswordBindProp);
+
+
+            IsBusyBindProp = false;
+        }
+
+        [Initialize]
+        private void InitLoginommand()
+        {
+            LoginCommand = new DelegateCommand<object>(OnLogin);
+            LoginCommand.ObservesCanExecute(() => IsNotBusyBindProp);
+        }
+
+        #endregion
+
+
+
 
         #endregion
 

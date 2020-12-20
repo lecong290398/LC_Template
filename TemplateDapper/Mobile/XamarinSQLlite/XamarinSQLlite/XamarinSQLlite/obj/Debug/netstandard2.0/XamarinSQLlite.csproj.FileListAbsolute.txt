@@ -16,3 +16,6 @@ F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\XamarinSQLlite\Xa
 F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\XamarinSQLlite\XamarinSQLlite\obj\Debug\netstandard2.0\XamarinSQLlite.csprojAssemblyReference.cache
 F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\XamarinSQLlite\XamarinSQLlite\obj\Debug\netstandard2.0\Views\Forms\SimpleEmailEntry.xaml.g.cs
 F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\XamarinSQLlite\XamarinSQLlite\obj\Debug\netstandard2.0\Views\Forms\SimpleLoginPage.xaml.g.cs
+F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\XamarinSQLlite\XamarinSQLlite\bin\Debug\netstandard2.0\Xamarin.DAL.dll
+F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\XamarinSQLlite\XamarinSQLlite\bin\Debug\netstandard2.0\Xamarin.DAL.pdb
+F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\XamarinSQLlite\XamarinSQLlite\obj\Debug\netstandard2.0\XamarinSQLlite.csproj.CopyComplete

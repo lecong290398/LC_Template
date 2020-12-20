@@ -94,7 +94,7 @@
                             Placeholder="Password"
                             PlaceholderColor="{DynamicResource Gray-700}"
                             Style="{StaticResource EntryStyle}"
-                            Text="{Binding Password}"
+                            Text="{Binding PasswordBindProp}"
                             TextColor="{DynamicResource Gray-900}" />
                     </border:SfBorder>
 

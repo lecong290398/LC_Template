@@ -5,3 +5,4 @@ F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Xamarin.DAL\obj\D
 F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Xamarin.DAL\obj\Debug\Xamarin.DAL.csproj.CopyComplete
 F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Xamarin.DAL\obj\Debug\Xamarin.DAL.dll
 F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Xamarin.DAL\obj\Debug\Xamarin.DAL.pdb
+F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Xamarin.DAL\obj\Debug\Xamarin.DAL.csprojAssemblyReference.cache

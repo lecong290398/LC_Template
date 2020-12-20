@@ -4,6 +4,16 @@
     "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.csproj": {}
   },
   "projects": {
+    "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\Xamarin.DAL\\Xamarin.DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\Xamarin.DAL\\Xamarin.DAL.csproj",
+        "projectName": "Xamarin.DAL",
+        "projectPath": "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\Xamarin.DAL\\Xamarin.DAL.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -34,7 +44,11 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\Xamarin.DAL\\Xamarin.DAL.csproj": {
+                "projectPath": "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\Xamarin.DAL\\Xamarin.DAL.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -47,11 +61,11 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.0.78, )"
-            },
             "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
               "version": "[5.0.0, )"
             },
@@ -96,6 +110,14 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.7.0.1239, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
             }
           },
           "imports": [
@@ -108,7 +130,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
