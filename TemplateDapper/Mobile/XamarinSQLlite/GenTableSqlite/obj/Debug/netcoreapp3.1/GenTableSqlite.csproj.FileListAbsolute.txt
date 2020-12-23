@@ -1,0 +1,13 @@
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\GenTableSqlite\bin\Debug\netcoreapp3.1\GenTableSqlite.exe
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\GenTableSqlite\bin\Debug\netcoreapp3.1\GenTableSqlite.deps.json
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\GenTableSqlite\bin\Debug\netcoreapp3.1\GenTableSqlite.runtimeconfig.json
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\GenTableSqlite\bin\Debug\netcoreapp3.1\GenTableSqlite.runtimeconfig.dev.json
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\GenTableSqlite\bin\Debug\netcoreapp3.1\GenTableSqlite.dll
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\GenTableSqlite\bin\Debug\netcoreapp3.1\GenTableSqlite.pdb
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\GenTableSqlite\obj\Debug\netcoreapp3.1\GenTableSqlite.csprojAssemblyReference.cache
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\GenTableSqlite\obj\Debug\netcoreapp3.1\GenTableSqlite.AssemblyInfoInputs.cache
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\GenTableSqlite\obj\Debug\netcoreapp3.1\GenTableSqlite.AssemblyInfo.cs
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\GenTableSqlite\obj\Debug\netcoreapp3.1\GenTableSqlite.csproj.CoreCompileInputs.cache
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\GenTableSqlite\obj\Debug\netcoreapp3.1\GenTableSqlite.dll
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\GenTableSqlite\obj\Debug\netcoreapp3.1\GenTableSqlite.pdb
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\GenTableSqlite\obj\Debug\netcoreapp3.1\GenTableSqlite.genruntimeconfig.cache

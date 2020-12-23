@@ -1,4 +1,5 @@
 using API_Template.Controllers;
+using DbCommand;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -20,6 +21,8 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using Tempalate.Business.Implements;
+using Tempalate.Business.Interface;
 
 namespace API_Template
 {
@@ -157,22 +160,21 @@ namespace API_Template
             //// mvc + validating
             //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0).AddFluentValidation();
 
-
             // override modelstate
             services.Configure<ApiBehaviorOptions>(options =>
-            {
-                options.InvalidModelStateResponseFactory = (context) =>
                 {
-                    var errors = context.ModelState.Values.SelectMany(x => x.Errors.Select(p => p.ErrorMessage)).ToList();
-                    var result = new
+                    options.InvalidModelStateResponseFactory = (context) =>
                     {
-                        Code = "400",
-                        Message = "Validation errors",
-                        Errors = errors
+                        var errors = context.ModelState.Values.SelectMany(x => x.Errors.Select(p => p.ErrorMessage)).ToList();
+                        var result = new
+                        {
+                            Code = "400",
+                            Message = "Validation errors",
+                            Errors = errors
+                        };
+                        return new BadRequestObjectResult(result);
                     };
-                    return new BadRequestObjectResult(result);
-                };
-            });
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

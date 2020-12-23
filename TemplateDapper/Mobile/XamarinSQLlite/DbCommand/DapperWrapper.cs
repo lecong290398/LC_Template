@@ -10,8 +10,7 @@ namespace DbCommand
 {
     public class DapperWrapper : IDapperWrapper
     {
-        private readonly string _connectionString =
-            ConfigurationManager.ConnectionStrings["DichVuCong"].ConnectionString;
+        private readonly string _connectionString = "Server=101.99.32.48,9899;Database=DemoTemplateWebsite;User Id=admin;Password=123123Cong.";
 
         private SqlConnection GetOpenConnection(string cnnString = "")
         {

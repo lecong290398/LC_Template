@@ -6,3 +6,11 @@ F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Xamarin.DAL\obj\D
 F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Xamarin.DAL\obj\Debug\Xamarin.DAL.dll
 F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Xamarin.DAL\obj\Debug\Xamarin.DAL.pdb
 F:\LC_Sofware\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Xamarin.DAL\obj\Debug\Xamarin.DAL.csprojAssemblyReference.cache
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Xamarin.DAL\bin\Debug\Xamarin.DAL.dll
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Xamarin.DAL\bin\Debug\Xamarin.DAL.pdb
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Xamarin.DAL\bin\Debug\System.ComponentModel.Annotations.dll
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Xamarin.DAL\obj\Debug\Xamarin.DAL.csproj.CoreCompileInputs.cache
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Xamarin.DAL\obj\Debug\Xamarin.DAL.csproj.CopyComplete
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Xamarin.DAL\obj\Debug\Xamarin.DAL.dll
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Xamarin.DAL\obj\Debug\Xamarin.DAL.pdb
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Xamarin.DAL\obj\Debug\Xamarin.DAL.csprojAssemblyReference.cache

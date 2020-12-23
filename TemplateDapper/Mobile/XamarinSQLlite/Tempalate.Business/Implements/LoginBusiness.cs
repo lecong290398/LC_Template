@@ -18,17 +18,16 @@ namespace Tempalate.Business.Implements
         protected IDapperWrapper Dapper = DbCommand.NinjectFactory.Get<IDapperWrapper>();
         protected static readonly ILog log = LogManager.GetLogger(typeof(AccountBusiness));
 
-
         public async Task<GetAccount> Login(string Username , string Password)
         {
             try
             {
                 var hashedPassword = EncryptProvider.Sha1(Password);
                 GetAccount account = new GetAccount();
-                string Store = "sp_LC_Login";
+                string Store = "sp_UserLogin";
                 var Para = new DynamicParameters();
-                Para.Add("@UserName", Username, DbType.String, ParameterDirection.Input);
-                Para.Add("@Password", Password, DbType.String, ParameterDirection.Input);
+                Para.Add("@Username", Username, DbType.String, ParameterDirection.Input);
+                Para.Add("@Password", hashedPassword, DbType.String, ParameterDirection.Input);
                 var result =  Dapper.StoredProcWithParams<GetAccount>(Store, Para, "").FirstOrDefault();
                 return result;
             }

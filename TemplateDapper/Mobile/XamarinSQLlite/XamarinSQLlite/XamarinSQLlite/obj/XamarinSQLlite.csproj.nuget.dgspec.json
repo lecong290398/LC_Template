@@ -1,37 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.csproj": {}
+    "D:\\SideProject\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.csproj": {}
   },
   "projects": {
-    "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\Xamarin.DAL\\Xamarin.DAL.csproj": {
+    "D:\\SideProject\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\Xamarin.DAL\\Xamarin.DAL.csproj": {
       "restore": {
-        "projectUniqueName": "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\Xamarin.DAL\\Xamarin.DAL.csproj",
+        "projectUniqueName": "D:\\SideProject\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\Xamarin.DAL\\Xamarin.DAL.csproj",
         "projectName": "Xamarin.DAL",
-        "projectPath": "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\Xamarin.DAL\\Xamarin.DAL.csproj"
+        "projectPath": "D:\\SideProject\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\Xamarin.DAL\\Xamarin.DAL.csproj"
       },
       "frameworks": {
         "net472": {}
       }
     },
-    "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.csproj": {
+    "D:\\SideProject\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.csproj",
+        "projectUniqueName": "D:\\SideProject\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.csproj",
         "projectName": "XamarinSQLlite",
-        "projectPath": "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.csproj",
-        "packagesPath": "C:\\Users\\lecon\\.nuget\\packages\\",
-        "outputPath": "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\obj\\",
+        "projectPath": "D:\\SideProject\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite.csproj",
+        "packagesPath": "C:\\Users\\CongNHL\\.nuget\\packages\\",
+        "outputPath": "D:\\SideProject\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\XamarinSQLlite\\XamarinSQLlite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\lecon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CongNHL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,8 +42,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\Xamarin.DAL\\Xamarin.DAL.csproj": {
-                "projectPath": "F:\\LC_Sofware\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\Xamarin.DAL\\Xamarin.DAL.csproj"
+              "D:\\SideProject\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\Xamarin.DAL\\Xamarin.DAL.csproj": {
+                "projectPath": "D:\\SideProject\\LC_Template\\TemplateDapper\\Mobile\\XamarinSQLlite\\Xamarin.DAL\\Xamarin.DAL.csproj"
               }
             }
           }

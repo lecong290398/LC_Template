@@ -1,6 +1,6 @@
 ﻿using API_Template.Helper;
 using API_Template.Models;
-using DbCommand;
+
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -16,6 +16,7 @@ using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using Tempalate.Business;
 using Tempalate.Business.Interface;
 using Xamarin.DAL.DataModel;
 using Xamarin.DAL.EntityModels;
