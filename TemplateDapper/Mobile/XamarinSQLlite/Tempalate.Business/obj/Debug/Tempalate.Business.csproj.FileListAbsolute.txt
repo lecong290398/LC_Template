@@ -27,6 +27,7 @@ D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Tempalate.Busine
 D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Tempalate.Business\bin\Debug\NETCore.Encrypt.dll
 D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Tempalate.Business\bin\Debug\Newtonsoft.Json.dll
 D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Tempalate.Business\bin\Debug\Ninject.dll
+D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Tempalate.Business\bin\Debug\System.Data.SqlClient.dll
 D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Tempalate.Business\bin\Debug\Xamarin.DAL.dll
 D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Tempalate.Business\bin\Debug\DbCommand.pdb
 D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Tempalate.Business\bin\Debug\Xamarin.DAL.pdb
@@ -40,4 +41,3 @@ D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Tempalate.Busine
 D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Tempalate.Business\obj\Debug\Tempalate.Business.csproj.CopyComplete
 D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Tempalate.Business\obj\Debug\Tempalate.Business.dll
 D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Tempalate.Business\obj\Debug\Tempalate.Business.pdb
-D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\Tempalate.Business\bin\Debug\System.Data.SqlClient.dll

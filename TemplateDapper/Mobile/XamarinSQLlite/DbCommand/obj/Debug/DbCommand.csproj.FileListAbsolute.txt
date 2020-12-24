@@ -35,4 +35,3 @@ D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\DbCommand\obj\De
 D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\DbCommand\obj\Debug\DbCommand.csproj.CopyComplete
 D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\DbCommand\obj\Debug\DbCommand.dll
 D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\DbCommand\obj\Debug\DbCommand.pdb
-D:\SideProject\LC_Template\TemplateDapper\Mobile\XamarinSQLlite\DbCommand\bin\Debug\System.Data.SqlClient.dll
